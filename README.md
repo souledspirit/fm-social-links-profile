@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](YOUR_SOLUTION_URL)
-- Live Site URL: [Add live site URL here](YOUR_LIVE_SITE_URL)
+- Live Site URL: [Live Site](https://souledspirit.github.io/fm-social-links-profile/)
 
 ## My process
 
