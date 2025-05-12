@@ -21,7 +21,7 @@
   --radius-sm: 0.5rem;
   --radius-md: 1rem;
   --shadow-soft: 0 4px 6px rgba(0, 0, 0, 0.1);
-  --max-width-card: 400px;
+  --max-width-card: 400px; /* Keep the maximum width */
 }
 
 body {
@@ -33,14 +33,15 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding: 1rem; /* Add some padding to the body for small screens */
 }
 
 .container {
   background-color: var(--clr-grey-800);
   border-radius: var(--radius-md);
   padding: 2.3rem;
-  width: 19%;
-  max-width: var(--max-width-card);
+  width: 90%; /* Make the container take up most of the screen width by default */
+  max-width: var(--max-width-card); /* But don't exceed the maximum width */
   text-align: center;
 }
 
@@ -92,10 +93,33 @@ body {
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;
-  width: 100%;
+  width: 100%; /* Make buttons take full container width */
 }
 
 .social-button:hover {
   background-color: var(--clr-green);
   color: var(--clr-grey-900);
 }
+
+/* Media Query for larger screens  */
+@media (min-width: 500px) {
+  .container {
+    width: 300px; /* Allow automatic width adjustment on larger screens */
+  }
+}
+
+/* Further adjustments for even larger screens if needed */
+/* @media (min-width: 768px) {
+  .container {
+    padding: 2.5rem;
+  }
+  .card-name {
+    font-size: 1.5rem;
+  }
+  .card-location {
+    font-size: 0.8rem;
+  }
+  .card-quote {
+    font-size: 0.8rem;
+  }
+} */
