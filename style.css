@@ -68,3 +68,46 @@ body {
 .card-top-section {
   margin-bottom: var(--spacing-md);
 }
+
+.card-name {
+  font-size: 1.5rem;
+  font-weight: var(--font-semibold);
+  margin-bottom: var(--spacing-xs);
+}
+
+.card-location {
+  color: var(--clr-green);
+  font-size: 0.9rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.card-quote {
+  font-size: 0.8rem;
+  font-weight: var(--font-regular);
+  color: hsl(0, 0%, 75%);
+  margin-bottom: var(--spacing-lg);
+}
+
+.card-bottom-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.social-button {
+  background-color: var(--clr-grey-700);
+  color: var(--clr-white);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  font-family: var(--font-primary);
+  font-size: var(--font-body);
+  font-weight: var(--font-semibold);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.social-button:hover {
+  background-color: var(--clr-green);
+  color: var(--clr-grey-900);
+}
