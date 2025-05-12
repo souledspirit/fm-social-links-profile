@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Font family */
+  --font-primary: "Inter", sans-serif;
+
+  /* Font weights */
+  --font-regular: 400;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* Font sizes */
+  --font-body: 14px;
+
+  /* Colors */
+  --clr-green: hsl(75, 94%, 57%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-grey-700: hsl(0, 0%, 20%);
+  --clr-grey-800: hsl(0, 0%, 12%);
+  --clr-grey-900: hsl(0, 0%, 8%);
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+
+  /* Border radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+
+  /* Shadow */
+  --shadow-soft: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  /* Max-widths */
+  --max-width-card: 350px;
+}
